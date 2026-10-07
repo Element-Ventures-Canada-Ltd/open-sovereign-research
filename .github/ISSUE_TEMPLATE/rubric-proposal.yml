@@ -1,0 +1,13 @@
+name: Rubric proposal
+description: Propose a change to the Sovereign Seam rubric (layers, capabilities, vocabulary, scope notes)
+title: "[rubric] "
+labels: [rubric]
+body:
+  - type: textarea
+    id: change
+    attributes: { label: Proposed change }
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes: { label: Why, description: "What can't be expressed today? Cite sources where you can." }
+    validations: { required: true }

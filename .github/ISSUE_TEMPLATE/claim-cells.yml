@@ -1,0 +1,13 @@
+name: Claim cells to read
+description: Tell others which cells and which lens you are working on
+title: "[reading] "
+labels: [reading]
+body:
+  - type: input
+    id: lens
+    attributes: { label: Lens, placeholder: "e.g. space launch supply chain" }
+    validations: { required: true }
+  - type: input
+    id: cells
+    attributes: { label: Cells, placeholder: "e.g. SDL-M7, INF-M7, CHP-M6" }
+    validations: { required: true }
