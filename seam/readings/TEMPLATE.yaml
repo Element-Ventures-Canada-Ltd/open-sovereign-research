@@ -1,0 +1,17 @@
+# Handling: Unclassified — public
+# Copy to seam/readings/<your-handle>/<lens>.yaml and fill in one entry per cell you read.
+# A reading is an argued, cited posture for one cell through one lens. No dollar figures.
+
+reading_set:
+  lens: ""            # the question you read the grid through, e.g. "space launch supply chain"
+  contributor: ""     # your GitHub handle
+  as_of: 2026-01-01
+  synthetic: false    # true for worked examples and test data
+
+readings:
+  - cell: SDL-M7      # {layer}-{capability}
+    posture: BUILD    # BUILD | PARTNER | BUY | UNREAD
+    intensity: core   # core | partial
+    rationale: ""     # one to three sentences; why this posture at this intersection
+    evidence_grade: inferred
+    sources: ["https://example.org/source"]   # at least one; public, linkable sources only

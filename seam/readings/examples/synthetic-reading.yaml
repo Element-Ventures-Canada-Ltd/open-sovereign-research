@@ -1,0 +1,28 @@
+# Handling: Unclassified — public
+# SYNTHETIC EXAMPLE — demonstrates the reading format. The lens and rationales are illustrative only.
+
+reading_set:
+  lens: "illustrative — small-launch ground segment"
+  contributor: example
+  as_of: 2026-10-07
+  synthetic: true
+
+readings:
+  - cell: SDL-M7
+    posture: BUILD
+    intensity: core
+    rationale: "Illustrative: the registry of who supplies the launch chain is the node a nation must hold by construction."
+    evidence_grade: speculative
+    sources: ["https://example.org/synthetic/sdl-m7"]
+  - cell: APP-M7
+    posture: BUY
+    intensity: core
+    rationale: "Illustrative: launch access bought as a service, with data rights written into the contract."
+    evidence_grade: speculative
+    sources: ["https://example.org/synthetic/app-m7"]
+  - cell: CHP-M6
+    posture: PARTNER
+    intensity: partial
+    rationale: "Illustrative: sensor-grade silicon secured through more than one allied source."
+    evidence_grade: speculative
+    sources: ["https://example.org/synthetic/chp-m6"]

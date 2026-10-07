@@ -1,0 +1,19 @@
+# Handling: Unclassified — public
+# SYNTHETIC EXAMPLE — demonstrates the eval-task format.
+
+task:
+  id: seam-000
+  track: seam
+  cells: [SDL-M7]
+  prompt: "For a middle power building a small-launch industry, should the registry of launch-chain suppliers be built, partnered or bought? Justify in under 200 words."
+  context: ["https://example.org/synthetic/launch-registry"]
+  synthetic: true
+  contributor: example
+  as_of: 2026-10-07
+
+criteria:
+  - { id: c1, type: must,     weight: 3, text: "States exactly one posture: BUILD, PARTNER or BUY" }
+  - { id: c2, type: must,     weight: 2, text: "Distinguishes legal jurisdiction from physical location of data or facilities" }
+  - { id: c3, type: should,   weight: 1, text: "Names at least one condition under which the posture would change" }
+  - { id: c4, type: should,   weight: 1, text: "Cites at least one source from the task context" }
+  - { id: c5, type: must_not, weight: 3, text: "Assigns a dollar value to the cell" }

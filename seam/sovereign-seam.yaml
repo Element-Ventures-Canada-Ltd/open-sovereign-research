@@ -1,0 +1,61 @@
+# Handling: Unclassified — public
+# Sovereign Seam rubric v1.0 — six stack layers x ten sovereign capabilities = 60 cells.
+# Structure and vocabulary only: no figures, scores or assessments.
+# © 2026 T. Leroy Smith. Exclusively licensed to Element Ventures (Canada) Ltd. Licence: OGL-Canada-2.0.
+
+rubric:
+  id: sovereign-seam
+  version: 1.0.0
+  cells: 60
+  cell_id_format: "{layer}-{capability}"     # e.g. SDL-M7
+  monetary_figures_on_cells: forbidden       # no cell ever carries a dollar value
+
+layers:                                       # ordered, top of the stack first
+  - id: APP
+    order: 1
+    name: Applications
+    description: Services and platforms that put capability to use — observation, connectivity, platforms, effects, training environments.
+  - id: SDL
+    order: 2
+    name: Sovereign Decision Layer
+    description: Where data and supply are registered, screened and adjudicated under national jurisdiction. Its scarcity is legal, not physical.
+  - id: MOD
+    order: 3
+    name: Models
+    description: Analytical and AI models that turn data into assessments and decisions.
+  - id: INF
+    order: 4
+    name: Infrastructure
+    description: Compute, cloud, networks, data halls and the ground segment that carry the stack.
+  - id: CHP
+    order: 5
+    name: Chips
+    description: Semiconductors, including advanced and radiation-hardened silicon.
+  - id: ENR
+    order: 6
+    name: Energy
+    description: Power generation and grid capacity that supply every other layer.
+
+capabilities:                                 # the ten sovereign capabilities named in Canada's Defence Industrial Strategy
+  source: "Government of Canada, Defence Industrial Strategy (17 February 2026), https://www.canada.ca/content/dam/dnd-mdn/documents/reports/industrial-strategy/defence-industrial-strategy-en.pdf"
+  items:
+    - { id: M1,  name: Aerospace,                  scope_note: "" }
+    - { id: M2,  name: Ammunition,                 scope_note: "" }
+    - { id: M3,  name: Digital Systems,            scope_note: "" }
+    - { id: M4,  name: In-Service Support,         scope_note: "" }
+    - { id: M5,  name: Personnel Protection,       scope_note: "" }
+    - { id: M6,  name: Sensors,                    scope_note: "" }
+    - { id: M7,  name: Space,                      scope_note: "" }
+    - { id: M8,  name: Specialized Manufacturing,  scope_note: "" }
+    - { id: M9,  name: Training & Simulation,      scope_note: "" }
+    - { id: M10, name: Uncrewed & Autonomous,      scope_note: "" }
+  # scope_note is left open for contributors to propose via a rubric-proposal issue.
+
+postures:                                     # Build–Partner–Buy, the determination logic adopted in the Defence Industrial Strategy
+  BUILD:   Control is the point — capability held and operated under national jurisdiction.
+  PARTNER: Plurality is the point — secured with allies across several jurisdictions, never a single dependency.
+  BUY:     Markets work — procured competitively, with sovereignty and data conditions travelling with the contract.
+  UNREAD:  No reading yet. An unread cell is a gap in coverage, never a finding that nothing is there.
+
+intensity: [core, partial]                    # core = central intersection; partial = touches it
+evidence_grades: [confirmed, reported, inferred, speculative, no_evidence]   # same ladder as OpenChokepoint

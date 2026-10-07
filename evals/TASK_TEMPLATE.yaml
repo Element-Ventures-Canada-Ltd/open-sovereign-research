@@ -1,0 +1,19 @@
+# Handling: Unclassified — public
+# Eval task — one repeatable question, the public context it may use, and the criteria a good answer meets.
+# Copy to evals/tasks/<your-handle>/<task-id>.yaml. Criteria are written so two graders would agree.
+
+task:
+  id: ""                 # <track>-<nnn>, e.g. seam-001
+  track: seam            # seam | chokepoint | launch | space-economy | workforce
+  cells: []              # optional Seam cells the task concerns, e.g. [SDL-M7]
+  prompt: ""             # the question exactly as a model or analyst would receive it
+  context: []            # public, linkable sources the answer may draw on
+  synthetic: false
+  contributor: ""
+  as_of: 2026-01-01
+
+criteria:                # 3–10 criteria; each is checkable from the answer text alone
+  - id: c1
+    type: must           # must | should | must_not
+    text: ""             # e.g. "States a posture of BUILD, PARTNER or BUY"
+    weight: 1            # 1–3
