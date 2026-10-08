@@ -56,7 +56,7 @@ Launch is the visible half of sovereign access to space. The other half is the g
 7. Prime Minister of Canada, launch of the Defence Industrial Strategy (17 February 2026). https://www.pm.gc.ca/en/news/news-releases/2026/02/17/prime-minister-carney-launches-canadas-first-defence-industrial
 8. ISED, Key Industrial Capabilities. https://ised-isde.canada.ca/site/industrial-technological-benefits/en/key-industrial-capabilities
 9. DND, "Minister McGuinty announces strategic investments in sovereign space launch" (March 2026). https://www.canada.ca/en/department-national-defence/news/2026/03/minister-mcguinty-announces-strategic-investments-in-sovereign-space-launch.html
-10. DND / IDEaS, "Launch the North." https://www.canada.ca/en/department-national-defence/programs/defence-ideas/element/contests/challenge/launch-north-accelerating-canada-sovereign-access-space.html
+10. Government of Canada, "Launch the North."
 11. Council of the European Union, "SAFE: Council concludes agreement with Canada." https://www.consilium.europa.eu/
 12. ISED, Canadian Sovereign AI Compute Strategy. https://ised-isde.canada.ca/site/ised/en/canadian-sovereign-ai-compute-strategy
 13. Credential Engine, CTDL and the Credential Registry. https://credreg.net/registry/competencies
