@@ -16,4 +16,8 @@ Handling: Unclassified — public
 - **Changes to the rubric itself** (layers, capabilities, vocabulary) start as a rubric-proposal issue.
 - Every new Markdown file carries a `Handling:` line.
 
+- Contribution scope: [CONTRIBUTION-SCOPE.md](CONTRIBUTION-SCOPE.md). AI-assisted work needs a named Responsible Person who reviews it and signs the CLA (CLA.md section 11).
+- Ideas and feedback that are not contributions follow [FEEDBACK.md](FEEDBACK.md). Bounties, where offered, follow [BOUNTIES.md](BOUNTIES.md) and [LEDGER.md](LEDGER.md). Governance: [GOVERNANCE.md](GOVERNANCE.md).
+- The one-time CLA signature covers every contribution; a DCO `Signed-off-by` trailer is welcome but not required.
+
 Be kind and specific. See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
