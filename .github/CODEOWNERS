@@ -1,0 +1,32 @@
+# CODEOWNERS - Open Sovereign Research (public repository)
+# Handling: Unclassified — public
+# The Red zone gate reads this file from main. Any pull request that changes
+# a path below waits for the owner's approval (the owner-approved label; see
+# .github/OWNER-APPROVAL.md). Everything else (seam/, evals/, docs/, tools/)
+# follows the normal pull request + automated checks path.
+
+# Automation and ownership (includes the data-handling guard)
+/.github/ @TLS-sys
+/.gitignore @TLS-sys
+
+# Handling and contribution scope
+/HANDLING.md @TLS-sys
+/CONTRIBUTION-SCOPE.md @TLS-sys
+/SECURITY.md @TLS-sys
+
+# Legal, licensing and contributor terms
+/LICENSE @TLS-sys
+/LICENSING.md @TLS-sys
+/NOTICE @TLS-sys
+/CLA.md @TLS-sys
+/CCLA.md @TLS-sys
+/BOUNTIES.md @TLS-sys
+/LEDGER.md @TLS-sys
+/FEEDBACK.md @TLS-sys
+
+# Governance and public positioning
+/GOVERNANCE.md @TLS-sys
+/MAINTAINERS.md @TLS-sys
+/CODE_OF_CONDUCT.md @TLS-sys
+/CONTRIBUTING.md @TLS-sys
+/README.md @TLS-sys
